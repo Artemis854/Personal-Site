@@ -1,8 +1,8 @@
 # Personal-Site
----
+
 Jekyll & GitHub Pages
 
-#TODO
+# TODO
 
 - Wireframe
   - Single Page or Multi?
