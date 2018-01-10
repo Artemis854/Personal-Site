@@ -6,13 +6,13 @@ Jekyll & GitHub Pages
 
 - Wireframe
   - Single Page or Multi?
-    [ ] Home
-    [ ] About
-    [ ] Projects
-    [ ] Contact
+    - [ ] Home
+    - [ ] About
+    - [ ] Projects
+    - [ ] Contact
     
 - Add Theme (Materialize)
-  [ ] Header
-  [ ] Footer
-    [ ] Contact?
-  [ ] Nav
+  - [ ] Header
+  - [ ] Footer
+    - [ ] Contact?
+  - [ ] Nav
