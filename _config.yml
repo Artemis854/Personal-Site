@@ -9,7 +9,7 @@ parallax_image_two: assets/images/startup3.jpg
 project_one: "Stock View"
 project_one_description: A Stock viewing application that allows the user to compare stocks and see volumn. It was created using Python Flask
 project_one_url: https://github.com/AshwinK97/Stock-View
-project_one_icon: location_on
+project_one_icon: show_chart
 
 project_button: Github
 
