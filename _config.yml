@@ -1,43 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: Artemis Hub
+name: Kaushal Patel
+email: kaushal197@gmail.com
+description: Welcome! This is my place on the web for projects, blogging, and anything else I can include. A short description about me, I'm a Third year Software Eng. student at UOIT in Oshawa. To hear more about myself, check out this blog post.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/startup3.jpg
+
+project_one: "Stock View"
+project_one_description: A Stock viewing application that allows the user to compare stocks and see volumn. It was created using Python Flask
+project_one_url: https://github.com/AshwinK97/Stock-View
+project_one_icon: location_on
+
+project_button: Github
+
+github: https://github.com/Artemis854
+
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://localhost:4000/ #the url of your site
+
+google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+
+cookies_banner: none # The value "show" will show the cookies banner, the value "none" will hide the banner.
+
+cookie_accept_message: Thanks!
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+permalink: pretty
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-assets
+  - jekyll-minifier
