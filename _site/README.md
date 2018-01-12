@@ -29,4 +29,5 @@ Jekyll & GitHub Pages
     - [ ] Stock View
     - [ ] Python 101?
 
+- [ ] Don't forget to get **Google Analytics** connected!
 **Deploy**
