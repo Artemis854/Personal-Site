@@ -16,7 +16,7 @@ Jekyll & GitHub Pages
   - [ ] Footer
     - [X] Contact
   - [X] Nav
-  - [ ] 404
+  - [X] 404
 
 - Setup
   - [X] Data
