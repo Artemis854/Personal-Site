@@ -1,12 +1,11 @@
 <div class="carousel carousel-slider center" data-indicators="true">
-  <div class="carousel-fixed-item">
-    <i class="material-icons" style="color:white" href="https://jameshamann.com">code</i>
-  </div>
+  {% for project in site.data.projects %}
   <div class="carousel-item white-text" style="background-color: #90a4ae;" href="#one!">
-    <h2>{{ site.project_one }}</h2>
-    <i class="medium material-icons">{{site.project_one_icon}}</i>
-    <p class="white-text">{{ site.project_one_description }}</p>
+    <h2>{{ project.title }}</h2>
+    <i class="medium material-icons">{{ project.icon }}</i>
+    <p class="white-text">{{ project.description }}</p>
     <br><br>
-    <a class="btn waves-effect waves-dark white black-text z-depth-4" target="_blank" href="{{site.project_one_url}}">{{site.project_button}}</a>
+    <a class="btn waves-effect waves-dark white black-text z-depth-4" target="_blank" href="{{project.url}}">GitHub</a>
   </div>
+  {% endfor %}
 </div>

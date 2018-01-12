@@ -1,10 +1,18 @@
 
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper">
-       <a href="#!" style="padding-left:10px;"class="brand-logo"><i class="material-icons">code</i>James Hamann</a>
+      <div class="nav-wrapper cyan lighten-3">
+       <a href="#!" style="padding-left:10px;"class="brand-logo">{ Artemis Hub }</a>
         <ul class="right hide-on-med-and-down">
-
+          {% for item in site.data.nav %}
+           <li class="black-text">
+              <a href="{{ item.link }}">
+                <spn class="black-text">
+                    {{ item.title }}
+                </spn>
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
     </nav>

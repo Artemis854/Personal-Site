@@ -1,0 +1,14 @@
+- title: Home
+  link: "/"
+
+- title: About
+  link: "2018/01/10/about"
+
+- title: Projects
+  link: "#projects"
+
+- title: Blog
+  link: "#blog"
+
+- title: Contact
+  link: "#contact"
