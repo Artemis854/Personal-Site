@@ -3,13 +3,8 @@ name: Kaushal Patel
 email: kaushal197@gmail.com
 description: Welcome! This is my place on the web for projects, blogging, and anything else I can include. A short description about me, I'm a Third year Software Eng. student at UOIT in Oshawa. To hear more about myself, check out this blog post.
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
-
-project_one: "Stock View"
-project_one_description: A Stock viewing application that allows the user to compare stocks and see volumn. It was created using Python Flask
-project_one_url: https://github.com/AshwinK97/Stock-View
-project_one_icon: show_chart
+parallax_image_one: assets/images/startup2.jpg # These are the images used for the parallax background
+parallax_image_two: assets/images/parallax-back.jpg
 
 project_button: Github
 
