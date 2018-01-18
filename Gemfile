@@ -1,4 +1,6 @@
 source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
 gem 'materialize-sass'
 gem "jekyll", "~> 3.6.2"
 gem "minima", "~> 2.0"
