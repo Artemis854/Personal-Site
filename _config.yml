@@ -11,8 +11,8 @@ project_button: Github
 github: https://github.com/Artemis854
 linkedin: https://www.linkedin.com/in/kaushal197
 
-baseurl: https://artemis854.github.io/Personal-Site # if your site is located at /blog or /home, enter it here, otherwise leave it empty
-url: https://artemis854.github.io/Personal-Site #the url of your site
+baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
+url: http://www.kaushalpatel.ca/ #the url of your site
 
 google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
 
